@@ -12,6 +12,6 @@ print(*y)
 answer = (input("Please input your guess for the word about: ")).lower()
 
 if answer == game[0].lower():
-    print ("Hura")
+    print ("True! You're so good")
 else:
-    print (":(")
+    print ("Wrong :(")
