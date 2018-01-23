@@ -1,16 +1,35 @@
-# 73
+print("Guess your number game")
+print("Now think of a number ranged from 1 to 100")
+print("All you have to do is answer my guess")
+print("c is correct")
+print("s is smaller")
+print("l is larger")
 
-from random import randint
+# print('''
+# Hi there,
+# Now think of
+# ''')
 
-while True:
-    num = randint(1, 100)
-    print("Is it", num, "? ", end="")
-    if num < 73:
-        print("B")
-    elif num == 73:
-        print("C")
-        break
-    else:
-        print("S")
+lo = 0
+hi = 100
+loop = True
+while loop:
+    mid = (lo + hi) // 2
+    answer = input("Is " + str(mid) + " your answer?")
+    if answer.lower() == "c":
+        print("I knew it")
+        loop = False
+    elif answer.lower() == "s":
+        hi = mid
+    elif answer.lower() == "l":
+        lo = mid
 
-print("I knew it")
+
+
+
+
+
+
+
+
+               #.lower chuyen ve chu lower

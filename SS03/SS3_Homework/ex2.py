@@ -1,18 +1,16 @@
-print("Hi there, this is a superuser gateway")
+print("Hi there, this is superuser gateway")
 
-count = 0
-
-while count < 3:
+n = 0
+while n < 3:
     name = input("Username: ")
     pw = input("Password: ")
-
     if name == "c4e":
         if pw == "123":
-            print("Welcome c4e")
+            print("Welcome")
             break
         else:
-            print("Your password is incorrect")
+            print("Your password is wrong")
     else:
-        print("You're not superuser")
-
-    count += 1
+        print("You are not superuser")
+    n += 1
+print("Get away!")
