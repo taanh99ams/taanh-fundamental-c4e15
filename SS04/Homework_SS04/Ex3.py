@@ -1,4 +1,3 @@
-listx=[]
 
 word = "champion"
 
