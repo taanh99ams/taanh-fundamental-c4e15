@@ -7,7 +7,7 @@ if opt == "R":
 elif opt == "C":
     newitem = input("Enter a new item ")
     list_item.append(newitem)
-    print(*newlist, sep = ", ")
+    print(*list_item, sep = ", ")
 
 elif opt == "U":
     i = int(input("Update position? "))

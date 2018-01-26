@@ -35,6 +35,7 @@ menu = ["Pho","Hot dog","Bun dau","Pizza","Noodle"]         #LIST
 # for i in range(len(menu)):                  #NOT-RECOMMENDED WAY
 #     print(menu[i])
 
-for food in menu:
-    print(food)
-    
+# for food in menu:
+#     print(food)
+
+print(menu[-1])
