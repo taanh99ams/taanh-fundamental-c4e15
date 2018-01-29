@@ -6,8 +6,10 @@ for j in range(3):
     print("MONTH", j + 1)
     print("One month has passed. Here is my flock")
     big = max(sheep)
-    for i in range(0, len(sheep)):
-        sheep[i] = sheep[i] + 50
+    # for i in range(0, len(sheep)):
+    #     sheep[i] = sheep[i] + 50
+    for size in sheep:
+        size += 50
     print(sheep)
     print("Now my biggest sheep has", big, "Let's shear it")
     print("After shearing, here is my flock")

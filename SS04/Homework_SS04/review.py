@@ -111,12 +111,12 @@
 #         print("Yes")
 #     count += 1
 
-menu = ["Bread","Juice","Tea","Noodle","Banh mi"]
-
-# Create:
-
-menu.append("Banana")
-print(*menu, sep=", ")
-
-for index, food in enumerate(menu):
-    print("{0}. {1}".format(index + 1, food))
+# menu = ["Bread","Juice","Tea","Noodle","Banh mi"]
+#
+# # Create:
+#
+# menu.append("Banana")
+# print(*menu, sep=", ")
+#
+# for index, food in enumerate(menu):
+#     print("{0}. {1}".format(index + 1, food))
